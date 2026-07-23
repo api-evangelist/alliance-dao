@@ -1,8 +1,23 @@
 aid: alliance-dao
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
+image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/alliance-dao.png
 name: Alliance DAO
-description: 'Alliance DAO is a company surfaced as a portfolio company of initialized-capital and added
-  to the API Evangelist network as a stub for enrichment. Sector: crypto. This profile is a lead awaiting
-  the enrichment pipeline.'
+description: 'Alliance (Alliance DAO) is a leading crypto, fintech, and AI startup accelerator. Its
+  cohort-based program pairs two weeks of in-person onboarding in New York City with eight weeks of remote
+  acceleration, offering mentorship, lectures, weekly check-ins, and a Demo Day pitch event. Alliance
+  invests $500,000 per startup and runs three cohorts per year. Surfaced as a portfolio company of
+  Initialized Capital, Alliance publishes no public API or developer platform; this profile captures its
+  identity and domain-security posture.'
 url: https://raw.githubusercontent.com/api-evangelist/alliance-dao/refs/heads/main/apis.yml
 x-type: company
 x-source: vc-portfolio
@@ -12,10 +27,15 @@ x-tier: stub
 x-tier-reason: portfolio-lead
 specificationVersion: '0.20'
 created: '2026-07-17'
-modified: '2026-07-17'
+modified: '2026-07-18'
 tags:
 - Company
 - Crypto
+- Accelerator
+- Fintech
+- Venture Capital
+- Web3
+- Startups
 apis: []
 maintainers:
 - FN: Kin Lane
@@ -23,5 +43,16 @@ maintainers:
 - FN: APIs.json
   email: info@apis.io
 common:
+- type: DomainSecurity
+  url: security/alliance-dao-domain-security.yml
 - type: Website
   url: https://alliance.xyz/
+- type: TermsOfService
+  url: https://alliance.xyz/terms
+- type: PrivacyPolicy
+  url: https://alliance.xyz/privacy-policy
+x-enrichment:
+  date: '2026-07-19'
+  status: backfilled
+  pass: local-v1
+  note: backfilled from .gitignore signal + verified work evidence
