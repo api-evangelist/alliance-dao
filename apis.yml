@@ -30,6 +30,9 @@ description: 'Alliance (Alliance DAO) is a leading crypto, fintech, and AI start
   Initialized Capital, Alliance publishes no public API or developer platform; this profile captures its
   identity and domain-security posture.'
 url: https://raw.githubusercontent.com/api-evangelist/alliance-dao/refs/heads/main/apis.yml
+x-api-posture: no-product-api
+x-api-posture-basis: observed
+x-api-posture-note: "Surfaced as a portfolio company of Initialized Capital, Alliance publishes no public API or developer platform; this profile captures its identity and domain-security posture."
 x-type: company
 x-source: vc-portfolio
 x-backed-by:
