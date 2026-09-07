@@ -57,6 +57,8 @@ maintainers:
 - FN: APIs.json
   email: info@apis.io
 common:
+- type: Blog
+  url: https://alliance.xyz/essays
 - type: DomainSecurity
   url: security/alliance-dao-domain-security.yml
 - type: Website
@@ -70,5 +72,3 @@ x-enrichment:
   status: backfilled
   pass: local-v1
   note: backfilled from .gitignore signal + verified work evidence
-x-parent: alliance
-x-relationship: product
